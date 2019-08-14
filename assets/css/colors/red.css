@@ -1,0 +1,174 @@
+/*You can add your won color also */
+a {
+  color: #b3d4fc;
+}
+
+a:hover {
+  color: #dc3a36;
+}
+
+.section-titile-bg {
+  color: #b3d4fc;
+}
+.section-title::before{
+  background-color: #b3d4fc;
+}
+.subtitle{
+  color: #b3d4fc;
+}
+.btn-common {
+  background: #b3d4fc;
+}
+
+.btn-common:hover, .btn-common:focus {
+  background: #dc3a36 !important;
+}
+
+.btn-round {
+  background: #b3d4fc !important;
+}
+
+.btn-round:hover {
+  background: #dc3a36 !important;
+}
+
+/* ScrollToTop */
+a.back-to-top i {
+  background-color: #b3d4fc;
+}
+
+
+.slicknav_btn{
+  border-color: #b3d4fc;
+}
+.slicknav_menu .slicknav_icon-bar{
+  background: #b3d4fc;
+}
+.slicknav_menu .slicknav_icon-bar:hover{
+  background: #b3d4fc;
+}
+.navbar li.active a.nav-link{
+  color: #b3d4fc!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #b3d4fc!important;
+}
+.dropdown .dropdown-item:focus, .dropdown .dropdown-item:hover{
+  color: #b3d4fc;
+}
+.dropdown .dropdown-menu .dropdown-item.active, .dropdown .dropdown-menu .dropdown-item:active{
+  color: #b3d4fc;
+  background-color: #fafafa;
+}
+.work-counter-widget i {
+  color: #b3d4fc;
+}
+.portfolio-nav ul.nav li a:hover,
+.portfolio-nav ul.nav li a.active{
+  background: #b3d4fc;
+}
+.about-single i {
+  color: #b3d4fc;
+}
+
+.about-single:hover i {
+  background: #b3d4fc;
+}
+.Material-tab ul.nav.nav-tabs li .active{
+  background: #b3d4fc !important;
+}
+.single-blog-post .post-meta a:hover {
+  color: #b3d4fc;
+}
+
+.contact-widget-section .single-contact-widget i {
+  color: #b3d4fc;
+}
+
+.single-service-widget i {
+  color: #b3d4fc;
+}
+#testimonial-carousel .owl-pagination .owl-page.active span {
+  background: #b3d4fc;
+}
+
+.form-submit button.btn-common.disabled {
+  background: #b3d4fc !important;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.owl-carousel .owl-controls .owl-page.active span {
+  border: none;
+  background: #fff !important;
+  opacity: 1;
+}
+
+.Material-tab-default ul.nav.nav-tabs li.active a {
+  color: #b3d4fc;
+}
+
+.Material-default-accordion .panel-default .panel-heading a {
+  background-color: #b3d4fc;
+}
+
+.icon-round, .icon-box {
+  background: #b3d4fc;
+}
+
+.icon-common {
+  color: #b3d4fc;
+}
+
+.price span {
+  color: #b3d4fc;
+}
+
+.pricing-button a.btn-pricing {
+  background-color: #b3d4fc;
+}
+
+.Material-error-section h1 {
+  color: #b3d4fc;
+}
+
+.comment-box .form-control, .comment-box textarea {
+  font-weight: 500;
+  color: #b3d4fc;
+}
+
+.find-widget {
+  padding: 10px 0;
+}
+
+.find-widget i {
+  background: #b3d4fc;
+}
+.footer-widget-container{
+  border-top: 4px solid #b3d4fc;
+}
+ul.footer-contact li span{
+  background: #b3d4fc;
+}
+.footer-contact ul li i{
+  background: #b3d4fc;
+  border-color: #b3d4fc;
+}
+.page-footer .link-widget ul li a:hover{
+  color: #b3d4fc;
+}
+.page-footer .recent-widget p a:hover{
+  color: #b3d4fc;
+}
+
+.form-group.is-focused .form-control {
+    outline: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b3d4fc), to(#b3d4fc)),
+    -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#b3d4fc, #b3d4fc), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#b3d4fc, #b3d4fc), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#b3d4fc, #b3d4fc), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.page-footer .footer-title::before{
+  background: #b3d4fc;
+}
