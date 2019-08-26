@@ -1,6 +1,6 @@
 /*You can add your won color also */
 a {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 a:hover {
@@ -8,24 +8,24 @@ a:hover {
 }
 
 .section-titile-bg {
-  color: #5166d8;
+  color: #FB5000;
 }
 .section-title::before{
-  background-color: #5166d8;
+  background-color: #FB5000;
 }
 .subtitle{
-  color: #5166d8;
+  color: #FB5000;
 }
 .btn-common {
-  background: #5166d8;
+  background: #FB5000;
 }
 
 .btn-common:hover, .btn-common:focus {
-  background: #3f51b3 !important;
+  background: #f44336 !important;
 }
 
 .btn-round {
-  background: #5166d8 !important;
+  background: #FB5000 !important;
 }
 
 .btn-round:hover {
@@ -34,66 +34,66 @@ a:hover {
 
 /* ScrollToTop */
 a.back-to-top i {
-  background-color: #5166d8;
+  background-color: #FB5000;
 }
 
 
 .slicknav_btn{
-  border-color: #5166d8;
+  border-color: #FB5000;
 }
 .slicknav_menu .slicknav_icon-bar{
-  background: #5166d8;
+  background: #FB5000;
 }
 .slicknav_menu .slicknav_icon-bar:hover{
-  background: #5166d8;
+  background: #FB5000;
 }
 .navbar li.active a.nav-link{
-  color: #5166d8!important;
+  color: #FB5000!important;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-  color: #5166d8!important;
+  color: #FB5000!important;
 }
 .dropdown .dropdown-item:focus, .dropdown .dropdown-item:hover{
-  color: #5166d8;
+  color: #FB5000;
 }
 .dropdown .dropdown-menu .dropdown-item.active, .dropdown .dropdown-menu .dropdown-item:active{
-  color: #5166d8;
+  color: #FB5000;
   background-color: #fafafa;
 }
 .work-counter-widget i {
-  color: #5166d8;
+  color: #FB5000;
 }
 .portfolio-nav ul.nav li a:hover,
 .portfolio-nav ul.nav li a.active{
-  background: #5166d8;
+  background: #FB5000;
 }
 .about-single i {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .about-single:hover i {
-  background: #5166d8;
+  background: #FB5000;
 }
 .Material-tab ul.nav.nav-tabs li .active{
-  background: #5166d8 !important;
+  background: #FB5000 !important;
 }
 .single-blog-post .post-meta a:hover {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .contact-widget-section .single-contact-widget i {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .single-service-widget i {
-  color: #5166d8;
+  color: #FB5000;
 }
 #testimonial-carousel .owl-pagination .owl-page.active span {
-  background: #5166d8;
+  background: #FB5000;
 }
 
 .form-submit button.btn-common.disabled {
-  background: #5166d8 !important;
+  background: #FB5000 !important;
   opacity: 0.7;
   cursor: not-allowed;
 }
@@ -105,36 +105,36 @@ a.back-to-top i {
 }
 
 .Material-tab-default ul.nav.nav-tabs li.active a {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .Material-default-accordion .panel-default .panel-heading a {
-  background-color: #5166d8;
+  background-color: #FB5000;
 }
 
 .icon-round, .icon-box {
-  background: #5166d8;
+  background: #FB5000;
 }
 
 .icon-common {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .price span {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .pricing-button a.btn-pricing {
-  background-color: #5166d8;
+  background-color: #FB5000;
 }
 
 .Material-error-section h1 {
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .comment-box .form-control, .comment-box textarea {
   font-weight: 500;
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .find-widget {
@@ -142,33 +142,33 @@ a.back-to-top i {
 }
 
 .find-widget i {
-  background: #5166d8;
+  background: #FB5000;
 }
 .footer-widget-container{
-  border-top: 4px solid #5166d8;
+  border-top: 4px solid #FB5000;
 }
 ul.footer-contact li span{
-  background: #5166d8;
+  background: #FB5000;
 }
 .footer-contact ul li i{
-  background: #5166d8;
-  border-color: #5166d8;
+  background: #FB5000;
+  border-color: #FB5000;
 }
 .page-footer .link-widget ul li a:hover{
-  color: #5166d8;
+  color: #FB5000;
 }
 .page-footer .recent-widget p a:hover{
-  color: #5166d8;
+  color: #FB5000;
 }
 
 .form-group.is-focused .form-control {
     outline: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#5166d8), to(#5166d8)),
-    -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
-    background-image: -webkit-linear-gradient(#5166d8, #5166d8), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
-    background-image: -o-linear-gradient(#5166d8, #5166d8), -o-linear-gradient(#D2D2D2, #D2D2D2);
-    background-image: linear-gradient(#5166d8, #5166d8), linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfeff), to(#fcfeff)),
+    -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+    background-image: -webkit-linear-gradient(#fcfeff, #fcfeff), -webkit-linear-gradient(#fcfeff, #fcfeff);
+    background-image: -o-linear-gradient(#fcfeff, #fcfeff), -o-linear-gradient(#fcfeff, #fcfeff);
+    background-image: linear-gradient(#fcfeff, #fcfeff), linear-gradient(#fcfeff, #fcfeff);
 }
 .page-footer .footer-title::before{
-  background: #5166d8;
+  background: #FB5000;
 }

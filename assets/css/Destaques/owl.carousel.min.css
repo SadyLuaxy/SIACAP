@@ -1,0 +1,118 @@
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+.cursosDestaque,.cursosDestaque .owl-item{
+	-webkit-tap-highlight-color:transparent;
+	position:relative
+}
+.cursosDestaque{display:none;
+	width:100%;
+	z-index:1
+}
+.cursosDestaque .owl-stage{
+	position:relative;
+	-ms-touch-action:pan-Y;
+	-moz-backface-visibility:hidden
+}
+.cursosDestaque .owl-stage:after{
+	content:".";display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0
+}
+.cursosDestaque .owl-stage-outer{
+	position:relative;
+	overflow:hidden;
+	-webkit-transform:translate3d(0,0,0)
+}
+.cursosDestaque .owl-item,.cursosDestaque .owl-wrapper{
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-webkit-transform:translate3d(0,0,0);
+	-moz-transform:translate3d(0,0,0);
+	-ms-transform:translate3d(0,0,0)
+}
+.cursosDestaque .owl-item{min-height:1px;
+	float:left;
+	-webkit-backface-visibility:hidden;
+	-webkit-touch-callout:none
+}
+.cursosDestaque .owl-item img{
+	display:block;
+	width:100%
+}
+.cursosDestaque .owl-dots.disabled,.cursosDestaque .owl-nav.disabled{
+	display:none
+}
+.no-js .cursosDestaque,.cursosDestaque.owl-loaded{
+	display:block
+}
+.cursosDestaque .owl-dot,.cursosDestaque .owl-nav .owl-next,.cursosDestaque .owl-nav .owl-prev{
+	cursor:pointer;
+	cursor:hand;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.cursosDestaque.owl-loading{
+	opacity:0;
+	display:block
+}
+.cursosDestaque.owl-hidden{
+	opacity:0
+}
+.cursosDestaque.owl-refresh .owl-item{
+	visibility:hidden
+}
+.cursosDestaque.owl-drag .owl-item{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.cursosDestaque.owl-grab{
+	cursor:move;
+	cursor:grab
+}
+.cursosDestaque.owl-rtl{
+	direction:rtl
+}
+.cursosDestaque.owl-rtl .owl-item{
+	float:right
+}
+.cursosDestaque .animated{
+	animation-duration:1s;
+	animation-fill-mode:both
+}
+.cursosDestaque .owl-animated-in{
+	z-index:0
+}
+.cursosDestaque .owl-animated-out{
+	z-index:1
+}
+.cursosDestaque .fadeOut{
+	animation-name:fadeOut
+}@keyframes fadeOut{
+	0%{
+		opacity:1
+		}
+		100%{
+			opacity:0
+			}
+		}
+.owl-height{
+	transition:height .5s ease-in-out
+}
+.cursosDestaque .owl-item .owl-lazy{
+	opacity:0;
+	transition:opacity .4s ease
+}
+.cursosDestaque .owl-item img.owl-lazy{
+	transform-style:preserve-3d
+}

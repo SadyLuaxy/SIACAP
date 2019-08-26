@@ -30,15 +30,30 @@
 
     <link rel="stylesheet" href="assets/css/material-kit.min.css">
 
-    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="assets/css/Ultimas_Noticias/estilo.css">
+
+    <link rel="stylesheet" href="assets/css/Destaques/owl.carousel.min.css">
+    <script src="assets/css/Destaques/jquery-3.3.1.min.js"></script>
+    <script src="assets/css/Destaques/owl.carousel.min.js"></script>
+    <script src="assets/css/Destaques/aos.js"></script>
+    <script src="assets/css/Destaques/main.js"></script>
+
+
+    <!-- Estilo De Cores  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/indigo.css" media="screen" />
 
+    <!-- Fontes Do Material  -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
 
   </head>
   <body>
-
-    <!-- Header Start -->
+        <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    <!-- Início do Header -->
     <header id="header">
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar nav-bg">
         <div class="container">
@@ -49,7 +64,7 @@
                   <i class="mdi mdi-menu">
                     <font style="vertical-align: inherit;">
                       <font style="vertical-align: inherit;">
-                          Categorias
+                          MENU
                       </font>
                     </font>
                   </i>
@@ -59,9 +74,9 @@
                   <a class="dropdown-item" href="about-us2.html">Cursos</a>
                   <a class="dropdown-item" href="team.html">Criatividades</a>
                   <a class="dropdown-item" href="services.html">Eventos</a>
-                  <a class="dropdown-item" href="contact-us.html">SoCursos</a>
-                  <a class="dropdown-item" href="contact-us2.html">EmpFind</a>
-                  <a class="dropdown-item" href="404.html">Jandre-Web</a>
+                  <a class="dropdown-item Danger Text" href="contact-us.html">SoCursos</a>
+                  <a class="dropdown-item Danger Text" href="contact-us2.html">EmpFind</a>
+                  <a class="dropdown-item Danger Text" href="404.html">Jandre-Web</a>
                   <a class="dropdown-item" href="404.html">Inscrição</a>
                 </div>
               </li>
@@ -69,21 +84,21 @@
               <li class="nav-item">
                 <div class="buttons">
                   <a href="#pablo" class="btn btn-outline-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                          Fazer Login
+                          Entrar
                       </font></font></a>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="buttons">
                   <a href="#pablo" class="btn btn-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                          Inscreva-se
+                          Cadastrar-me
                       </font></font></a>
                 </div>
               </li>
             </ul>
-
           </div>
-         <!-- Brand and toggle get grouped for better mobile display -->
+
+          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html"><img src="assets/images/acap.jpg" alt=""></a>
           </div>
@@ -116,7 +131,7 @@
               <div class="container">
                 <div class="row">
                   <div class="form-group has-feedback">
-                    <input type="text" placeholder="Procure por cursos, palestras..." class="form-control">
+                    <input type="text" placeholder="Pesquisar por qualquer coisa..." class="form-control" style="border-bottom: 1.5px solid #FB5000;font-size: 14px;padding: 12px;">
                     <div class="close"><i class="mdi mdi-close"></i></div>
                   </div>
                 </div>
@@ -255,7 +270,7 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active carousel-item-left">
-              <div class="page-header header-filter" style="background-image: url('assets/images/89039.jpg');">
+              <div class="page-header header-filter" style="background-image: url('assets/images/slider-04.png');">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-6 text-left">
@@ -282,7 +297,7 @@
                           <font style="vertical-align: inherit;">
                             <font style="vertical-align: inherit;">
                               <i class="material-icons mdi mdi-lightbulb-outline"></i>
-                              Saiba quem somos
+                              Quero começar grátis
                             </font>
                         </font>
                       </a>
@@ -293,13 +308,13 @@
               </div>
             </div>
             <div class="carousel-item carousel-item-next carousel-item-left">
-              <div class="page-header header-filter" style="background-image: url('assets/images/8478.jpg');">
+              <div class="page-header header-filter" style="background-image: url('assets/images/slider-1.png');">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
                       <h1 class="title animated wow fadeInDown animated" data-wow-delay=".4s" style="visibility: visible;-webkit-animation-delay: .4s; -moz-animation-delay: .4s; animation-delay: .4s;">
                         <font style="vertical-align: inherit;">
-                          <font style="vertical-align: inherit;">Você deveria estudar conosco!</font>
+                          <font style="vertical-align: inherit;">Estudar programação nunca foi tão fácil!</font>
                         </font>
                       </h1>
                       <h4 class="animated fadeInUp wow animated" data-wow-delay=".6s" style="visibility: visible;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
@@ -312,26 +327,14 @@
                         </font>
                       </h4>
                       <br>
-                      <h6 class="animated fadeInUp wow animated" data-wow-delay=".6s" style="visibility: visible;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
-                        <font style="vertical-align: inherit;">
-                          <font style="vertical-align: inherit;">
-                            Conecte-se conosco:
-                          </font>
-                        </font>
-                      </h6>
                       <div class="buttons animated fadeInUp wow animated" data-wow-delay=".8s" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
-                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
-                          <i class="mdi mdi-twitter"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
-                          <i class="mdi mdi-facebook"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
-                          <i class="mdi mdi-google-plus"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
-                          <i class="mdi mdi-instagram"></i>
-                        </a>
+                          <form>
+                              <div class="row-fluid">
+                                <div class="form-group col-md-12">
+                                  <input type="search" placeholder="Pesquisar por qualquer coisa..." class="form-control" style="border: 1.5px solid #FB5000;font-size: 14px;padding: 20px;">
+                                </div>
+                              </div>
+                          </form>
                       </div>
                     </div>
                   </div>
@@ -339,7 +342,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="page-header header-filter" style="background-image: url('assets/images/123.jpg');">
+              <div class="page-header header-filter" style="background-image: url('assets/images/slider-3.png');">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-7 ml-auto text-right">
@@ -413,43 +416,152 @@
         <div class="features-1">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h2 class="title">Porque somos os melhores</h2>
+              <h2 class="title">Porque nos escolher</h2>
               <h5 class="description">Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido fornecendo informações significativas. Lembre-se que a essa altura, o usuário está curioso, senão ele não rolaria para chegar até aqui. Adicione um botão se quiser que o usuário veja mais.</h5>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-info">
-                  <i class="material-icons">chat</i>
-                </div>
-                <h4 class="info-title">Chat</h4>
-                <p>Aqui vai ter os detalhes do chat, terá que ter todo o detalhamento simplificao possível</p>
+          <section class="services">
+              <div class="container">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-sm-6 col-lg-4">
+                              <div class="media aos-init" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+                                  <img class="mr-4" src="assets/images/service1.png" alt="Web Development">
+                                  <div class="media-body">
+                                      <h5 class="fon-negritada">Aulas personalizadas</h5>
+                                      <p>Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-4">
+                              <div class="media aos-init" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+                                  <img class="mr-4" src="assets/images/service2.png" alt="Web Development">
+                                  <div class="media-body">
+                                      <h5 class="fon-negritada">Preços mais acessíveis</h5>
+                                      <p>Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-4">
+                              <div class="media aos-init" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                                  <img class="mr-4" src="assets/images/service3.png" alt="Web Development">
+                                  <div class="media-body">
+                                      <h5 class="fon-negritada">Plano escolar 100% dígno</h5>
+                                     <p>Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-4">
+                              <div class="media aos-init" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+                                  <img class="mr-4" src="assets/images/service4.png" alt="Web Development">
+                                  <div class="media-body">
+                                      <h5 class="fon-negritada">Usuários protegidos</h5>
+                                      <p>Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-4">
+                              <div class="media aos-init" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+                                  <img class="mr-4" src="assets/images/service4.png" alt="Web Development">
+                                  <div class="media-body">
+                                      <h5 class="fon-negritada">Certificação completa</h5>
+                                      <p>Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-4">
+                              <div class="media aos-init" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                                  <img class="mr-4" src="assets/images/service6.png" alt="Web Development">
+                                  <div class="media-body">
+                                      <h5 class="fon-negritada">Pagamentos online</h5>
+                                      <p>Este é o parágrafo onde você pode escrever mais detalhes sobre o seu produto. Mantenha seu usuário envolvido.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-success">
-                  <i class="material-icons">verified_user</i>
+          </section>
+        </div>
+        <!-- Fim Área sobre nós -->
+
+        <!-- Carousel De Cursos Em Destaque -->
+        <div class="seccao-Destaques">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                  <h1 class="section-title">Cursos populares</h1>
                 </div>
-                <h4 class="info-title">Usuários protegidos</h4>
-                <p>Aqui vai aparecer toda a informação possível e simplificada sobre a nossa proteção.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-danger">
-                  <i class="material-icons">payment</i>
+                <div class="col-12">
+                    <div class="owl-DestSlides cursosDestaque">
+                        <div class="course-1-item">
+                          <div class="card card-blog">
+                            <div class="card-header card-header-image">
+                              <a href="#pablo">
+                                <img class="img" src="assets/images/php7.png">
+                              </a>
+                            </div>
+                            <div class="card-body ">
+                              <h6 class="card-category text-success">
+                                Linguagem de Programação
+                              </h6>
+                              <h4 class="card-title">
+                                <a href="#pablo">
+                                  Curso Básico De  PHP7
+                                </a>
+                              </h4>
+                              <div class="prices clearfix">
+                                <div class="procent">
+                                  -50%
+                                </div>
+                                <div class="price">
+                                  <i class="ti-money">
+                                    Kz
+                                  </i>   
+                                  <b>
+                                    15.000
+                                  </b>
+                                </div>
+                                <div class="old-price">
+                                  <span>
+                                    <i class="ti-money">
+                                      Kz
+                                    </i>
+                                      30.000
+                                  </span>
+                                </div>
+                              </div>
+                              <p class="card-description">
+                                Curso básico de PHP7, curso de desenvolvimento web, descriçãodo curso...
+                              </p>
+                            </div>
+                            <footer class="info_bar clearfix">
+                              <ul class="unstyled list-inline row">
+                                <li class="time col-sm-7 col-xs-6 col-lg-8">
+                                  <i class="ti-timer">
+                                  </i>
+                                  <b>
+                                    1 mês e 2 semanas & 2h30/dia 
+                                  </b>
+                                </li>
+                                <li class="info_link col-sm-5 col-xs-6 col-lg-4">
+                                  <a href="#" class="btn btn-block btn-danger btn-sm">
+                                    Detalhes
+                                  </a>
+                                </li>
+                              </ul>
+                            </footer>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="info-title">Pagamento online</h4>
-                <p>Aqui vai aparecer toda a informação possível e simplificada sobre a nossa forma de pagamento online.</p>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Fim Área sobre nós -->
-        <!-- Secção De Especificação de especialidades -->
+        <!-- Carousel De Cursos Em Destaque -->
       </div>
+
+      <!-- Secção De Especificação de especialidades -->
       <div class="features-5" style="background-image: url('assets/images/acap.jpg')">
         <div class="col-md-12 ml-auto mr-auto text-center">
           <h2 class="title">Sua vida será muito mais fácil</h2>
@@ -516,424 +628,420 @@
         </div>
       </div>
 
-      <div class="main main-raised">
-    <div class="container">
-      <div class="section">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <ul class="nav nav-pills nav-pills-primary">
-              <li class="nav-item">
-                <a class="nav-link active show" href="#pill1" data-toggle="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todos</font></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pill2" data-toggle="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mundo</font></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pill3" data-toggle="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arts</font></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pill3" data-toggle="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tech</font></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pill3" data-toggle="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">O negócio</font></font></a>
-              </li>
-            </ul>
-            <div class="tab-content tab-space">
-              <div class="tab-pane active show" id="pill1"></div>
-              <div class="tab-pane" id="pill2"></div>
-              <div class="tab-pane" id="pill3"></div>
-              <div class="tab-pane" id="pill4"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card card-raised card-background" style="background-image: url('../assets/img/examples/office2.jpg')">
-              <div class="card-body">
-                <h6 class="card-category text-info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">os mundos</font></font></h6>
-                <a href="#pablo">
-                  <h3 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Os melhores aplicativos de produtividade no mercado</font></font></h3>
-                </a>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Não tenha medo da verdade, porque precisamos reiniciar a base humana na verdade E eu te amo como Kanye ama Kanye Eu amo o design de cama de Rick Owens, mas a parte de trás é ...
-                </font></font></p>
-                <a href="#pablo" class="btn btn-danger btn-round">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">format_align_left</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Leia o artigo
-                </font></font></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card card-raised card-background" style="background-image: url('../assets/img/examples/blog8.jpg')">
-              <div class="card-body">
-                <h6 class="card-category text-info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">O negócio</font></font></h6>
-                <h3 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trabalhar no Wallstreet não é tão fácil</font></font></h3>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Não tenha medo da verdade, porque precisamos reiniciar a base humana na verdade E eu te amo como Kanye ama Kanye Eu amo o design de cama de Rick Owens, mas a parte de trás é ...
-                </font></font></p>
-                <a href="#pablo" class="btn btn-primary btn-round">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">format_align_left</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Leia o artigo
-                </font></font></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="card card-raised card-background" style="background-image: url('../assets/img/examples/card-project6.jpg')">
-              <div class="card-body">
-                <h6 class="card-category text-info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marketing</font></font></h6>
-                <h3 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0 a 100.000 clientes em 6 meses</font></font></h3>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Não tenha medo da verdade, porque precisamos reiniciar a base humana na verdade E eu te amo como Kanye ama Kanye Eu amo o design de cama de Rick Owens, mas a parte de trás é ...
-                </font></font></p>
-                <a href="#pablo" class="btn btn-warning btn-round">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">assunto</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> lido estudo de caso
-                </font></font></a>
-                <a href="#pablo" class="btn btn-white btn-just-icon btn-link" title="" rel="tooltip" data-original-title="Save to Pocket" aria-describedby="tooltip503381">
-                  <i class="fa fa-get-pocket"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <h3 class="title text-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Você também pode estar interessado em</font></font></h3>
-        <br>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-plain card-blog">
-              <div class="card-header card-header-image">
-                <a href="#pablo">
-                  <img class="img img-raised" src="../assets/img/bg5.jpg">
-                </a>
-              <div class="colored-shadow" style="background-image: url(&quot;../assets/img/bg5.jpg&quot;); opacity: 1;"></div></div>
-              <div class="card-body">
-                <h6 class="card-category text-info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Empreendimento</font></font></h6>
-                <h4 class="card-title">
-                  <a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Autodesk olha para o futuro da impressão 3D com o Projeto Escher</font></font></a>
-                </h4>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Como tantas organizações atualmente, a Autodesk é uma empresa em transição. </font><font style="vertical-align: inherit;">Foi até recentemente uma tradicional empresa de software vendendo licenças.
-                  </font></font><a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">consulte Mais informação</font></font></a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-plain card-blog">
-              <div class="card-header card-header-image">
-                <a href="#pablo">
-                  <img class="img img-raised" src="../assets/img/examples/blog5.jpg">
-                </a>
-              <div class="colored-shadow" style="background-image: url(&quot;../assets/img/examples/blog5.jpg&quot;); opacity: 1;"></div></div>
-              <div class="card-body">
-                <h6 class="card-category text-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Iniciantes
-                </font></font></h6>
-                <h4 class="card-title">
-                  <a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lyft lançando serviço multiplataforma esta semana</font></font></a>
-                </h4>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Como tantas organizações atualmente, a Autodesk é uma empresa em transição. </font><font style="vertical-align: inherit;">Foi até recentemente uma tradicional empresa de software vendendo licenças.
-                  </font></font><a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">consulte Mais informação</font></font></a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-plain card-blog">
-              <div class="card-header card-header-image">
-                <a href="#pablo">
-                  <img class="img img-raised" src="../assets/img/examples/blog6.jpg">
-                </a>
-              <div class="colored-shadow" style="background-image: url(&quot;../assets/img/examples/blog6.jpg&quot;); opacity: 1;"></div></div>
-              <div class="card-body">
-                <h6 class="card-category text-danger">
-                  <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">trending_up</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Enterprise
-                </font></font></h6>
-                <h4 class="card-title">
-                  <a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 insights sobre a paisagem da moda francesa</font></font></a>
-                </h4>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Como tantas organizações atualmente, a Autodesk é uma empresa em transição. </font><font style="vertical-align: inherit;">Foi até recentemente uma tradicional empresa de software vendendo licenças.
-                  </font></font><a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">consulte Mais informação</font></font></a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="team-5 section-image" style="background-image: url('../assets/img/bg10.jpg')">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card card-profile card-plain">
-              <div class="row">
-                <div class="col-md-5">
-                  <div class="card-header card-header-image">
-                    <a href="#pablo">
-                      <img class="img" src="../assets/img/faces/card-profile1-square.jpg">
-                    </a>
-                    <div class="ripple-container"></div>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <div class="card-body">
-                    <h4 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alec Thompson</font></font></h4>
-                    <h6 class="card-category text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Autor do Mês</font></font></h6>
-                    <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                      Não tenha medo da verdade porque precisamos reiniciar a fundação humana na verdade ...
-                    </font></font></p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-google"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card card-profile card-plain">
-              <div class="row">
-                <div class="col-md-5">
-                  <div class="card-header card-header-image">
-                    <a href="#pablo">
-                      <img class="img" src="../assets/img/faces/card-profile4-square.jpg">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <div class="card-body">
-                    <h4 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kendall Andrew</font></font></h4>
-                    <h6 class="card-category text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Autor da semana</font></font></h6>
-                    <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                      Não tenha medo da verdade porque precisamos reiniciar a fundação humana na verdade ...
-                    </font></font></p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-dribbble"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-google"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="subscribe-line">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Receba dicas e truques toda semana!</font></font></h3>
-            <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-              Participe da nossa newsletter e receba novidades em sua caixa de entrada toda semana! </font><font style="vertical-align: inherit;">Nós também odiamos spam, então não se preocupe com isso.
-            </font></font></p>
-          </div>
-          <div class="col-md-6">
-            <div class="card card-plain card-form-horizontal">
-              <div class="card-body">
-                <form method="" action="">
-                  <div class="row">
-                    <div class="col-md-8">
-                      <span class="bmd-form-group"><div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text">
-                            <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">enviar</font></font></i>
-                          </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Your Email...">
-                      </div></span>
-                    </div>
-                    <div class="col-md-4">
-                      <button type="button" class="btn btn-primary btn-round btn-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Se inscrever</font></font></button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="cards">
-          <div class="container">
-            <div class="title">
-              <h2>Cards</h2>
-              <h3>Blog Cards</h3>
-            </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-                <div class="card card-blog">
-                  <div class="card-header card-header-image">
-                    <a href="#pablo">
-                      <img class="img" src="./assets/img/examples/card-blog1.jpg">
-                      <div class="card-title">
-                        This Summer Will be Awesome
-                      </div>
-                    </a>
-                  <div class="colored-shadow" style="background-image: url(&quot;./assets/img/examples/card-blog1.jpg&quot;); opacity: 1;"></div></div>
-                  <div class="card-body">
-                    <h6 class="card-category text-info">Fashion</h6>
-                    <p class="card-description">
-                      Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                    </p>
-                  </div>
-                </div>
-                <div class="card bg-info">
-                  <div class="card-body">
-                    <h5 class="card-category card-category-social">
-                      <i class="fa fa-twitter"></i> Twitter
-                    </h5>
-                    <h4 class="card-title">
-                      <a href="#pablo">"You Don't Have to Sacrifice Joy to Build a Fabulous Business and Life"</a>
-                    </h4>
-                  </div>
-                  <div class="card-footer">
-                    <div class="author">
-                      <a href="#pablo">
-                        <img src="./assets/img/faces/avatar.jpg" alt="..." class="avatar img-raised">
-                        <span>Tania Andrew</span>
-                      </a>
-                    </div>
-                    <div class="stats ml-auto">
-                      <i class="material-icons">favorite</i> 2.4K ·
-                      <i class="material-icons">share</i> 45
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="card">
-                  <div class="card-body ">
-                    <h6 class="card-category text-danger">
-                      <i class="material-icons">trending_up</i> Trending
-                    </h6>
-                    <h4 class="card-title">
-                      <a href="#pablo">To Grow Your Business Start Focusing on Your Employees</a>
-                    </h4>
-                  </div>
-                  <div class="card-footer ">
-                    <div class="author">
-                      <a href="#pablo">
-                        <img src="./assets/img/faces/christian.jpg" alt="..." class="avatar img-raised">
-                        <span>Lord Alex</span>
-                      </a>
-                    </div>
-                    <div class="stats ml-auto">
-                      <i class="material-icons">favorite</i> 342 ·
-                      <i class="material-icons">chat_bubble</i> 45
-                    </div>
-                  </div>
-                </div>
-                <div class="card card-blog">
-                  <div class="card-header card-header-image">
-                    <a href="#pablo">
-                      <img class="img" src="./assets/img/examples/card-blog2.jpg">
-                    </a>
-                  <div class="colored-shadow" style="background-image: url(&quot;./assets/img/examples/card-blog2.jpg&quot;); opacity: 1;"></div></div>
-                  <div class="card-body ">
-                    <h6 class="card-category text-success">Legal</h6>
-                    <h4 class="card-title">
-                      <a href="#pablo">5 Common Legal Mistakes That Can Trip-Up Your Startup</a>
-                    </h4>
-                    <p class="card-description">
-                      Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                    </p>
-                  </div>
-                  <div class="card-footer ">
-                    <div class="author">
-                      <a href="#pablo">
-                        <img src="./assets/img/faces/marc.jpg" alt="..." class="avatar img-raised">
-                        <span>Mike John</span>
-                      </a>
-                    </div>
-                    <div class="stats ml-auto">
-                      <i class="material-icons">schedule</i> 5 min read
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-12">
-                <div class="row">
-                  <div class="col-lg-12 col-md-6">
-                    <div class="card card-blog">
-                      <div class="card-header card-header-image">
-                        <a href="#pablo">
-                          <img class="img" src="./assets/img/examples/blog8.jpg">
-                        </a>
-                      <div class="colored-shadow" style="background-image: url(&quot;./assets/img/examples/blog8.jpg&quot;); opacity: 1;"></div></div>
-                      <div class="card-body ">
-                        <h6 class="card-category text-danger">
-                          <i class="material-icons">trending_up</i> Trending
-                        </h6>
-                        <h4 class="card-title">
-                          <a href="#pablo">To Grow Your Business Start Focusing on Your Employees</a>
-                        </h4>
-                      </div>
-                      <div class="card-footer ">
-                        <div class="author">
-                          <a href="#pablo">
-                            <img src="./assets/img/faces/marc.jpg" alt="..." class="avatar img-raised">
-                            <span>Mike John</span>
-                          </a>
-                        </div>
-                        <div class="stats ml-auto">
-                          <i class="material-icons">schedule</i> 5 min read
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-md-6">
-                    <div class="card bg-success">
-                      <div class="card-body ">
-                        <h5 class="card-category card-category-social">
-                          <i class="fa fa-newspaper-o"></i> TechCrunch
-                        </h5>
-                        <h4 class="card-title">
-                          <a href="#pablo">"Focus on Your Employees"</a>
-                        </h4>
-                        <p class="card-description">
-                          Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                        </p>
-                        <div class="card-stats justify-content-center">
-                          <a href="#pablo" class="btn btn-white btn-round">Read Article</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       <!-- Fim Secção De Especificação de especialidades -->
 
 
+      <!-- Notícias Recentes -->
+      <div class="container-fluid" style="padding-left: 40px;">
+        <div class="row"><!-- Posts -->
+        <div class="col-lg-8 blog__content">
+          <!-- Latest News -->
+          <section class="section tab-post mb-16">
+            <div class="title-wrap title-wrap--line">
+              <h3 class="section-title">Últimas Notícias</h3>
+
+              <div class="tabs tab-post__tabs"> 
+                <ul class="tabs__list">
+                  <li class="tabs__item tabs__item--active">
+                    <a href="#tab-acap" class="tabs__trigger">ACAP</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a href="#tab-jandre" class="tabs__trigger">Jandre-web</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a href="#tab-empfind" class="tabs__trigger danger" >Empfind</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a href="#tab-socursos" class="tabs__trigger">SoCursos</a>
+                  </li>
+                  <li class="tabs__item">
+                    <a href="#" class="tabs__trigger">Ver Tudo</a>
+                  </li>
+                </ul> <!-- end tabs -->
+              </div>
+            </div>
+
+            <!-- tab content -->
+            <div class="tabs__content tabs__content-trigger tab-post__tabs-content">
+              
+              <div class="tabs__content-pane tabs__content-pane--active" id="tab-acap">
+                <div class="row cardNoticias-row">
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/1.jpg" src="assets/images/1.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--violet" style="background-color: #fb5000 !important;opacity: .9;">ACAP</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">A ACAP realizou uma conferência no IMPAL</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/2.jpg" src="assets/images/2.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--purple" style="background-color: #fb5000;opacity: .9;">ACAP</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p class="lead">iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                </div>
+              </div> <!-- end pane 1 -->
+
+              <div class="tabs__content-pane" id="tab-jandre">
+                <div class="row cardNoticias-row">
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/3.jpg" src="assets/images/3.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange" style="background-color: #e0030b; opacity: .9">Jandre-Web</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/4.jpg" src="assets/images/4.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--green" style="background-color: #e0030b; opacity: .9">Jandre-Web</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>                  
+                </div>
+              </div> <!-- end pane 2 -->
+
+              <div class="tabs__content-pane" id="tab-empfind">
+                <div class="row cardNoticias-row">
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/1.jpg" src="assets/images/1.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--violet" style="background-color: #09c0df;opacity: .9">EmpFind</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">Follow These Smartphone Habits of Successful Entrepreneurs</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/2.jpg" src="assets/images/2.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--purple" style="background-color: #09c0df;opacity: .9">EmpFind</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                </div>
+              </div> <!-- end pane 3 -->
+
+              <div class="tabs__content-pane" id="tab-socursos">
+                <div class="row cardNoticias-row">
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/3.jpg" src="assets/images/3.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange" style="background-color: #003f56;opacity: .9;">SoCursos</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+                    <article class="entry cardNoticias">
+                      <div class="entry__img-holder cardNoticias__img-holder">
+                        <a href="single-post.html">
+                          <div class="thumb-container thumb-70">
+                            <img data-src="assets/images/4.jpg" src="assets/images/4.jpg" class="entry__img lazyload" alt="" />
+                          </div>
+                        </a>
+                        <a href="#" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--green" style="background-color: #003f56;opacity: .9;">SoCursos</a>
+                      </div>
+
+                      <div class="entry__body cardNoticias__body">
+                        <div class="entry__header">
+                          
+                          <h2 class="entry__title">
+                            <a href="single-post.html">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
+                          </h2>
+                          <ul class="entry__meta">
+                            <li class="entry__meta-author">
+                              <span>by</span>
+                              <a href="#">DeoThemes</a>
+                            </li>
+                            <li class="entry__meta-date">
+                              Jan 21, 2018
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="entry__excerpt">
+                          <p>iPrice Group report offers insights on daily e-commerce activity in the ...</p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>                  
+                </div>
+              </div> <!-- end pane 4 -->
+            </div> <!-- end tab content -->            
+          </section> <!-- end latest news -->
+
+        </div> <!-- end posts -->
+        <aside class="col-lg-4 sidebar sidebar--right" style="padding-top: 70px;">
+          <!-- Widget Popular Posts -->
+          <aside class="widget widget-popular-posts" style="">
+            <h4 class="widget-title">Postagens populares</h4>
+            <ul class="post-list-small">
+              <li class="post-list-small__item">
+                <article class="post-list-small__entry clearfix">
+                  <div class="post-list-small__img-holder">
+                    <div class="thumb-container thumb-100">
+                      <a href="single-post.html">
+                        <img data-src="assets/images/2.jpg" src="assets/images/2.jpg" alt="" class="post-list-small__img--rounded lazyload">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="post-list-small__body">
+                    <h3 class="post-list-small__entry-title">
+                      <a href="single-post.html">Como A Tecnologia ajuda na vida social</a>
+                    </h3>
+                    <ul class="entry__meta">
+                      <li class="entry__meta-author">
+                        <span>by</span>
+                        <a href="#">Sady Luaxy</a>
+                      </li>
+                      <li class="entry__meta-date">
+                        Jan 21, 2019
+                      </li>
+                    </ul>
+                  </div>                  
+                </article>
+              </li>
+              <li class="post-list-small__item">
+                <article class="post-list-small__entry clearfix">
+                  <div class="post-list-small__img-holder">
+                    <div class="thumb-container thumb-100">
+                      <a href="single-post.html">
+                        <img data-src="assets/images/3.jpg" src="assets/images/3.jpg" alt="" class="post-list-small__img--rounded lazyload">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="post-list-small__body">
+                    <h3 class="post-list-small__entry-title">
+                      <a href="single-post.html">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                    </h3>
+                    <ul class="entry__meta">
+                      <li class="entry__meta-author">
+                        <span>by</span>
+                        <a href="#">DeoThemes</a>
+                      </li>
+                      <li class="entry__meta-date">
+                        Jan 21, 2018
+                      </li>
+                    </ul>
+                  </div>                  
+                </article>
+              </li>
+            </ul>           
+          </aside> <!-- end widget popular posts -->
+        </aside> <!-- end sidebar -->
+  
+      </div> <!-- end content -->
+      </div>
 
 
-    <!-- Welcome Section Start -->
+      <!-- Fim De Notícias Recentes -->
+
+
+    <!-- Bem Vindo Início -->
     <section class="welcome-section section-padding section-dark">
       <div class="container">
         <div class="row">
@@ -990,13 +1098,13 @@
         </div>
       </div>
     </section>
-    <!-- Welcome Section End -->
+    <!--Fim Secção de Bem Vindo -->
 
-    <!-- Services Section -->
+    <!-- Secção de Serviços -->
     <section class="Material-service-section section-padding">
       <div class="container">
           <div class="row">
-            <!-- Section Titile -->
+            <!-- Título -->
             <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
               <h1 class="section-title">Why Choose</h1>
             </div>
@@ -1202,96 +1310,6 @@
       </div>
     </div>
     <!-- End Testimonial Section  -->
-
-
-
-
-    <!-- Start Client Section -->
-    <div class="client section-padding section-dark">
-      <div class="container">
-        <div class="row">
-          <div id="client-logo" class="owl-carousel">
-            <div class="client-logo item">
-              <div class="col-md-4">
-            <div class="card card-plain card-blog">
-              <div class="card-header card-header-image">
-                <a href="#pablo">
-                  <img class="img img-raised" src="../assets/img/examples/blog5.jpg">
-                </a>
-              <div class="colored-shadow" style="background-image: url(&quot;../assets/img/examples/blog5.jpg&quot;); opacity: 1;"></div></div>
-              <div class="card-body">
-                <h6 class="card-category text-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Iniciantes
-                </font></font></h6>
-                <h4 class="card-title">
-                  <a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lyft lançando serviço multiplataforma esta semana</font></font></a>
-                </h4>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Como tantas organizações atualmente, a Autodesk é uma empresa em transição. </font><font style="vertical-align: inherit;">Foi até recentemente uma tradicional empresa de software vendendo licenças.
-                  </font></font><a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">consulte Mais informação</font></font></a>
-                </p>
-              </div>
-            </div>
-          </div>
-            </div>
-            <div class="client-logo item">
-              <div class="col-md-4">
-            <div class="card card-plain card-blog">
-              <div class="card-header card-header-image">
-                <a href="#pablo">
-                  <img class="img img-raised" src="../assets/img/examples/blog5.jpg">
-                </a>
-              <div class="colored-shadow" style="background-image: url(&quot;../assets/img/examples/blog5.jpg&quot;); opacity: 1;"></div></div>
-              <div class="card-body">
-                <h6 class="card-category text-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Iniciantes
-                </font></font></h6>
-                <h4 class="card-title">
-                  <a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lyft lançando serviço multiplataforma esta semana</font></font></a>
-                </h4>
-                <p class="card-description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Como tantas organizações atualmente, a Autodesk é uma empresa em transição. </font><font style="vertical-align: inherit;">Foi até recentemente uma tradicional empresa de software vendendo licenças.
-                  </font></font><a href="#pablo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">consulte Mais informação</font></font></a>
-                </p>
-              </div>
-            </div>
-          </div>
-            </div>
-            <div class="client-logo item">
-              <a href="#">
-                <img class="img-fluid" src="assets/images/clients/client3.png" alt="" />
-              </a>
-            </div>
-            <div class="client-logo item">
-              <a href="#">
-                <img class="img-fluid" src="assets/images/clients/client4.png" alt="" />
-              </a>
-            </div>
-            <div class="client-logo item">
-              <a href="#">
-                <img class="img-fluid" src="assets/images/clients/client1.png" alt="" />
-              </a>
-            </div>
-            <div class="client-logo item">
-              <a href="#">
-                <img class="img-fluid" src="assets/images/clients/client2.png" alt="" />
-              </a>
-            </div>
-            <div class="client-logo item">
-              <a href="#">
-                <img class="img-fluid" src="assets/images/clients/client3.png" alt="" />
-              </a>
-            </div>
-            <div class="client-logo item">
-              <a href="#">
-                <img class="img-fluid" src="assets/images/clients/client4.png" alt="" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Client Section -->
 
     <!-- Our BLog Section -->
     <section class="Material-blog-section section-padding">
@@ -1548,11 +1566,7 @@
       </i>
     </a>
 
-    <!-- Preloader -->
-    <div id="preloader">
-      <div class="loader" id="loader-1"></div>
-    </div>
-    <!-- End Preloader -->
+
 
     <!-- Optional JavaScript -->
     <script src="assets/js/jquery-min.js"></script>
@@ -1574,6 +1588,14 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <link rel="stylesheet" href="assets/css/Destaques/owl.carousel.min.css">
+    <script src="assets/css/Destaques/owl.carousel.min.js"></script>
+    <script src="assets/css/Destaques/aos.js"></script>
+    <script src="assets/css/Destaques/main.js"></script>
+
+    <script src="assets/css/Ultimas_Noticias/script.js"></script>
+    <script src="assets/css/Ultimas_Noticias/modernzr.js"></script>
 
   </body>
 </html>
